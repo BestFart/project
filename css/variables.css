@@ -1,0 +1,22 @@
+:root {
+    --color-base: #f9faff;
+    --color-white: #fff;
+    --color-accent: #ff7a50;
+    --color-text: #363853;
+    --color-text-accent: #ff6838;
+    --color-text-copyright: #646464;
+
+    --font-family: "Rubik", sans-serif;
+    --second-family: "DM Sans", sans-serif;
+    --third-family: "Nunito", sans-serif;
+
+    --border-radius: 5px;
+
+    --font-family-base: "Rubik-Medium", sans-serif;
+    --font-family-accent: "DMSans", sans-serif;
+
+    --container-width: 1200px;
+    --container-padding-x: 15px;
+
+    --transition-duration: 0.2s;
+}
