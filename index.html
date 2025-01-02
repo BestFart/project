@@ -178,7 +178,7 @@
         <section>
             <div class="container">
                 <div class="delivery-content">
-                    <img src="./images/food delivery.png" alt="img" class="delivery-img" width="626" height="722"
+                    <img src="./images/food- delivery.png" alt="img" class="delivery-img" width="626" height="722"
                         loading="lazy">
                     <div class="delivery-text">
                         <h2 class="delivery-title"><span class="title">Stay</span> at home, we will Provide <span
@@ -306,9 +306,9 @@
                             50% discount
                         </p>
                         <div class="download">
-                            <img src="./images/Store-App Store.svg" alt="img" class="applestore" width="120" height="40"
+                            <img src="./images/Store-AppStore.svg" alt="img" class="applestore" width="120" height="40"
                                 loading="lazy">
-                            <img src="./images/Store-Google Play.svg" alt="img" class="googleplay" width="135"
+                            <img src="./images/Store-GooglePlay.svg" alt="img" class="googleplay" width="135"
                                 height="40" loading="lazy">
                         </div>
                     </div>
@@ -324,17 +324,19 @@
                     <div class="customer-reviews-content">
                         <img src="./images/maskclient.png" alt="img" class="customer-reviews-img" width="432"
                             height="528" loading="lazy">
-                        <p class="customer-reviews-text">EFood has the most intriguing food order system in the country.
-                            UI in both their app and web Is very simple and easy to use, enhancing the UX. Their
-                            delivery men are also quite professional and knows the neighborhood well. Till now I never
-                            had to guide them to my address for delivery;
-                        </p>
-                        <div class="customer-reviews-info">
-                            <div class="customer-reviews-info-user">
-                                <h4 class="user-title">Anglina Jole</h4>
-                                <p class="user-text">Food lover</p>
+                        <div class="customer-reviews-text">
+                            <p class="customer-reviews-texts">EFood has the most intriguing food order system in the
+                                country.UI in both their app and web Is very simple and easy to use, enhancing the UX.
+                                Their delivery men are also quite professional and knows the neighborhood well. Till now
+                                I never had to guide them to my address for delivery;
+                            </p>
+                            <div class="customer-reviews-info">
+                                <div class="customer-reviews-info-user">
+                                    <h4 class="user-title">Anglina Jole</h4>
+                                    <p class="user-text">Food lover</p>
+                                </div>
+                                <button class="user-arrow"></button>
                             </div>
-                            <button class="user-arrow"></button>
                         </div>
                     </div>
                 </div>
@@ -346,9 +348,12 @@
                     <h2 class="subscribe-title">Subscribe to get the Latest Offer</h2>
                     <p class="subscribe-text">Get our daily updates by subscribing to our newspaper, please drop your
                         email below</p>
-                    <div class="rectangle">
-
-                    </div>
+                    <form action="" class="subscribe-form">
+                        <label for="subscribe-email" class="visually-hidden"></label>
+                        <input type="email" placeholder="Enter your email addres" name="input" id="subscribe-email"
+                            class="subscribe-input">
+                        <button class="subscribe-btn" type="submit">Subscribe</button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -358,58 +363,129 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-column">
-                    <a href="#" class="logo">
-                        <img src="./images/logo.svg" alt="eFOOD" class="header-logo-img" width="106" height="38"
-                            loading="lazy">
-                    </a>
-                    <address class="footer-adress">Dhaka, Bangladesh</address>
-                    <a href="tel:+0943833399" class="footer-contacts">0943833399</a>
-                    <a href="mailto:support@efood.com" class="footer-contacts">support@efood.com</a>
-                    <div class="footer-social">
-                        <ul class="footer-social-list">
-                            <li class="footer-social-item">
-                                <a href="#" class="footer-social-link">
-                                    <img src="./images/facebook.svg" alt="" class="footer-facebook" width="39"
-                                        height="39" loading="lazy">
-                                </a>
-                            </li>
-                            <li class="footer-social-item">
-                                <a href="#" class="footer-social-link">
-                                    <img src="./images/twitter.svg" alt="" class="footer-twitter" width="39" height="39"
-                                        loading="lazy">
-                                </a>
-                            </li>
-                            <li class="footer-social-item">
-                                <a href="#" class="footer-social-link">
-                                    <img src="./images/instagram.svg" alt="" class="footer-instagram" width="39"
-                                        height="39" loading="lazy">
-                                </a>
-                            </li>
-                            <li class="footer-social-item">
-                                <a href="#" class="footer-social-link">
-                                    <img src="./images/pinterest.svg" alt="" class="footer-pinterest" width="39"
-                                        height="39" loading="lazy">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="footer-column">
-                    <h3 class="footer-column-title">Service</h3>
-                </div>
-                <div class="footer-column">
-                    <h3 class="footer-column-title">Company</h3>
-                </div>
-                <div class="footer-column">
-                    <h3 class="footer-column-title">Supports</h3>
-                </div>
-                <div class="footer-column">
-                    <h3 class="footer-column-title">Resources</h3>
+                    <ul class="footer-address-list">
+                        <a href="#" class="logo">
+                            <img src="./images/logo.svg" alt="eFOOD" class="header-logo-img" width="106" height="38"
+                                loading="lazy">
+                        </a>
+                        <li class="footer-address-item">
+                            <img src="./images/Location.svg" alt="img" class="footer-colum-img" width="24" height="24"
+                                loading="lazy">
+                            <address class="footer-address">Dhaka, Bangladesh</address>
+                        </li>
+                        <li class="footer-contacts-item">
+                            <img src="./images/Calling.svg" alt="img" class="footer-coluum-img" width="24" height="24"
+                                loading="lazy">
+                            <a href="tel:+0943833399" class="footer-contacts">0943833399</a>
+                        </li>
+                        <li class="footer-mail-item">
+                            <img src="./images/Message.svg" alt="img" class="footer-coluum-img" width="24" height="24"
+                                loading="lazy">
+                            <a href="mailto:support@efood.com" class="footer-contacts">support@efood.com</a>
+                        </li>
+                        <li class="footer-social">
+                            <ul class="footer-social-list">
+                                <li class="footer-social-item">
+                                    <a href="#" class="footer-social-link">
+                                        <img src="./images/facebook.svg" alt="" class="footer-facebook" width="39"
+                                            height="39" loading="lazy">
+                                    </a>
+                                </li>
+                                <li class="footer-social-item">
+                                    <a href="#" class="footer-social-link">
+                                        <img src="./images/twitter.svg" alt="" class="footer-twitter" width="39"
+                                            height="39" loading="lazy">
+                                    </a>
+                                </li>
+                                <li class="footer-social-item">
+                                    <a href="#" class="footer-social-link">
+                                        <img src="./images/instagram.svg" alt="" class="footer-instagram" width="39"
+                                            height="39" loading="lazy">
+                                    </a>
+                                </li>
+                                <li class="footer-social-item">
+                                    <a href="#" class="footer-social-link">
+                                        <img src="./images/pinterest.svg" alt="" class="footer-pinterest" width="39"
+                                            height="39" loading="lazy">
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="footer-service">
+                        <li class="footer-service-title">Service</li>
+                        <li class="footer-service-item">
+                            <a href="#" class="footer-service-link">How it works</a>
+                        </li>
+                        <li class="footer-service-item">
+                            <a href="#" class="footer-service-link">Home delivery</a>
+                        </li>
+                        <li class="footer-service-item">
+                            <a href="#" class="footer-service-link">Products</a>
+                        </li>
+                        <li class="footer-service-item">
+                            <a href="#" class="footer-service-link">Menu</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-company">
+                        <li class="footer-company-title">Company</li>
+                        <li class="footer-company-item">
+                            <a href="#" class="footer-company-link">About us</a>
+                        </li>
+                        <li class="footer-company-item">
+                            <a href="#" class="footer-company-link">News</a>
+                        </li>
+                        <li class="footer-company-item">
+                            <a href="#" class="footer-company-link">Our trusted partner</a>
+                        </li>
+                        <li class="footer-company-item">
+                            <a href="#" class="footer-company-link">New users FAQ</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-supports">
+                        <li class="footer-supports-title">Supports</li>
+                        <li class="footer-supports-item">
+                            <a href="#" class="footer-supports-link">Help center</a>
+                        </li>
+                        <li class="footer-supports-item">
+                            <a href="#" class="footer-supports-link">Feedback</a>
+                        </li>
+                        <li class="footer-supports-item">
+                            <a href="#" class="footer-supports-link">Contact us</a>
+                        </li>
+                        <li class="footer-supports-item">
+                            <a href="#" class="footer-supports-link">Terms conditions</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-resources">
+                        <li class="footer-resources-title">Resources</li>
+                        <li class="footer-resources-item">
+                            <a href="#" class="footer-resources-link">Download app</a>
+                        </li>
+                        <li class="footer-resources-item">
+                            <a href="#" class="footer-resources-link">Blog</a>
+                        </li>
+                        <li class="footer-resources-item">
+                            <a href="#" class="footer-resources-link">What’s new</a>
+                        </li>
+                        <li class="footer-resources-item">
+                            <a href="#" class="footer-resources-link">Sitemap</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="footer-copyright"></div>
+            <div class="footer-inner">
+                <div class="footer-copyright">© 2021 EFood - All rights reserved.</div>
+                <div class="footer-inner-text">
+                    <p>Privacy</p>
+                    <p>Security</p>
+                    <p>Terms</p>
+                </div>
+            </div>
         </div>
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>
