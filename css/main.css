@@ -1,4 +1,4 @@
-@import "/css/normalize.css";
-@import "/css/fonts.css";
-@import "/css/variables.css";
-@import "/css/basic.css";
+@import url("/css/normalize.css");
+@import url("/css/variables.css");
+@import url("/css/basic.css");
+@import url("/css/fonts.css");
