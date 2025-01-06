@@ -411,7 +411,7 @@ p {
     background: var(--color-text-accent);
 }
 
-/* .top-food-btn._icon::after {
+.top-food-btn._icon::after {
     content: "";
     display: block;
     width: 24px;
@@ -419,7 +419,7 @@ p {
     background-image: url(/images/arrow-small-right.png);
     background-repeat: no-repeat;
     background-size: contain;
-} */
+}
 
 .mobile-app {
     display: flex;
