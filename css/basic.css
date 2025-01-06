@@ -217,6 +217,26 @@ p {
     color: var(--color-white);
 }
 
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    /* content: none; */
+    display: none;
+}
+
+.swiper-wrapper {
+    margin-bottom: 40px;
+}
+
+.container-arrow {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 208px;
+    height: 34px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* .cards-list {
     display: flex;
