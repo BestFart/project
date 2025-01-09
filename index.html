@@ -17,7 +17,7 @@
                     <img src="./images/logo.svg" alt="eFOOD" class="header-logo-img" width="106" height="38"
                         loading="lazy">
                 </a>
-                <nav class="header-menu">
+                <nav class="header-menu open">
                     <ul class="header-menu-list">
                         <li class="header-menu-item">
                             <a href="#" class="header-menu-link">Home</a>
@@ -44,9 +44,16 @@
                                 <div class="cart-count">4</div>
                             </a>
                         </li>
+                        <li class="header-menu-item">
+                            <button class="header-button">Sign Up</button>
+                        </li>
                     </ul>
+
+                    <button class="nav-button">
+                        <img class="nav-btn-img" src="./images/nav-open.svg" alt="nav button">
+                    </button>
+
                 </nav>
-                <button class="header-button" type="button">Sign Up</button>
             </div>
             <div class="header-content">
                 <div class="header-text">
@@ -76,24 +83,24 @@
                     <nav class="btn-category-nav">
                         <ul class="btn-category-list">
                             <li class="btn-category-item">
-                                <button class="btn button-burger button_active" type="button"><img
-                                        src="./images/burger.png" alt="">Burger</button>
+                                <button class="btn button-burger button_active" type="button">
+                                    <img src="./images/burger.png" alt="">Burger</button>
                             </li>
                             <li class="btn-category-item">
-                                <button class="btn button-pizza" type="button"><img src="./images/pizza.png"
-                                        alt="">Pizza</button>
+                                <button class="btn button-pizza" type="button">
+                                    <img src="./images/pizza.png" alt="">Pizza</button>
                             </li>
                             <li class="btn-category-item">
-                                <button class="btn button-sandwich" type="button"><img src="./images/sandwich.png"
-                                        alt="">Sandwich</button>
+                                <button class="btn button-sandwich" type="button">
+                                    <img src="./images/sandwich.png" alt="">Sandwich</button>
                             </li>
                             <li class="btn-category-item">
-                                <button class="btn button-asianfood" type="button"><img src="./images/asianfood.png"
-                                        alt="">Asian Food</button>
+                                <button class="btn button-asianfood" type="button">
+                                    <img src="./images/asianfood.png" alt="">Asian Food</button>
                             </li>
                             <li class="btn-category-item">
-                                <button class="btn button-setmenu" type="button"><img src="./images/setmenu.png"
-                                        alt="">Set Menu</button>
+                                <button class="btn button-setmenu" type="button">
+                                    <img src="./images/setmenu.png" alt="">Set Menu</button>
                             </li>
                         </ul>
                     </nav>
@@ -254,89 +261,30 @@
                         </div>
                     </div>
                     <div class="container-arrow">
-                        <div class="swiper-button-prev"><img src="images/up-arrow-l.png" alt=""></div>
-                        <div class="swiper-button-next"><img src="images/up-arrow-r.png" alt=""></div>
+                        <div class="swiper-button-prev">
+                            <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                                    stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M13.26 15.53L9.73999 12L13.26 8.46997" stroke="#292D32" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="swiper-button-next">
+                            <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                                    stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M10.74 15.53L14.26 12L10.74 8.46997" stroke="#292D32" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
                     </div>
                 </div>
-
-                <!-- <ul class="cards-list">
-                        <li class="card-item">
-                            <article class="product">
-                                <img src="images/Burger1.png" alt="burger" class="product-image">
-                                <div class="product-rating">
-                                    <img src="./images/Icons=Star.svg" alt="" width="20" height="20" loading="lazy">
-                                    <img src="./images/Icons=Star.svg" alt="" width="20" height="20" loading="lazy">
-                                    <img src="./images/Icons=Star.svg" alt="" width="20" height="20" loading="lazy">
-                                    <img src="./images/Icons=Star.svg" alt="" width="20" height="20" loading="lazy">
-                                    <img src="./images/Icons=Star.svg" alt="" width="20" height="20" loading="lazy">
-                                </div>
-                                <h4 class="product-title">Cheeseburger With Salad</h4>
-                                <p class="product-price">$18.00</p>
-                                <button class="product-add" type="button">Add to Cart</button>
-                            </article>
-                        </li>
-                        <li class="card-item">
-                            <article class="product">
-                                <img src="images/Burger2.png" alt="burger" class="product-image">
-                                <div class="product-rating">
-                                    <img src="./images/Icons=Star.svg" alt="" width="20" height="20" loading="lazy">
-                                    <img src="./images/Icons=Star.svg" alt="" width="20" height="20" loading="lazy">
-                                    <img src="./images/Icons=Star.svg" alt="" width="20" height="20" loading="lazy">
-                                    <img src="./images/Icons=Star.svg" alt="" width="20" height="20" loading="lazy">
-                                    <img src="./images/Icons=Star.svg" alt="" width="20" height="20" loading="lazy">
-                                </div>
-                                <h4 class="product-title">Beef Burger</h4>
-                                <p class="product-price">$15.00</p>
-                                <button class="product-add" type="button">Add to Cart</button>
-                            </article>
-                        </li>
-                        <li class="card-item">
-                            <article class="product">
-                                <img src="images/Burger1.png" alt="burger" class="product-image">
-                                <div class="product-rating">
-                                    <img src="./images/Icons=Star.svg" alt="" width="20" height="20" loading="lazy">
-                                    <img src="./images/Icons=Star.svg" alt="" width="20" height="20" loading="lazy">
-                                    <img src="./images/Icons=Star.svg" alt="" width="20" height="20" loading="lazy">
-                                    <img src="./images/Icons=Star.svg" alt="" width="20" height="20" loading="lazy">
-                                    <img src="./images/Icons=Star.svg" alt="" width="20" height="20" loading="lazy">
-                                </div>
-                                <h4 class="product-title">Royel Cheeseburger</h4>
-                                <p class="product-price">$16.00</p>
-                                <button class="product-add" type="button">Add to Cart</button>
-                            </article>
-                        </li>
-                        <li class="card-item">
-                            <article class="product">
-                                <img src="images/Burger1.png" alt="burger" class="product-image">
-                                <div class="product-rating">
-                                    <img src="./images/Icons=Star.svg" alt="" width="20" height="20" loading="lazy">
-                                    <img src="./images/Icons=Star.svg" alt="" width="20" height="20" loading="lazy">
-                                    <img src="./images/Icons=Star.svg" alt="" width="20" height="20" loading="lazy">
-                                    <img src="./images/Icons=Star.svg" alt="" width="20" height="20" loading="lazy">
-                                    <img src="./images/Icons=Star.svg" alt="" width="20" height="20" loading="lazy">
-                                </div>
-                                <h4 class="product-title">Black Gambugrer</h4>
-                                <p class="product-price">$14.00</p>
-                                <button class="product-add" type="button">Add to Cart</button>
-                            </article>
-                        </li>
-                        <li class="card-item">
-                            <article class="product">
-                                <img src="images/Burger1.png" alt="burger" class="product-image">
-                                <div class="product-rating">
-                                    <img src="./images/Icons=Star.svg" alt="" width="20" height="20" loading="lazy">
-                                    <img src="./images/Icons=Star.svg" alt="" width="20" height="20" loading="lazy">
-                                    <img src="./images/Icons=Star.svg" alt="" width="20" height="20" loading="lazy">
-                                    <img src="./images/Icons=Star.svg" alt="" width="20" height="20" loading="lazy">
-                                    <img src="./images/Icons=Star.svg" alt="" width="20" height="20" loading="lazy">
-                                </div>
-                                <h4 class="product-title">Chicken Burger</h4>
-                                <p class="product-price">$15.00</p>
-                                <button class="product-add" type="button">Add to Cart</button>
-                            </article>
-                        </li>
-                    </ul> -->
-            </div>
             </div>
         </section>
         <section>

@@ -1,0 +1,31 @@
+@media (max-width: 430px) {
+    .header-menu-list {
+        display: none;
+    }
+
+    .nav-button {
+        display: block;
+    }
+
+    .header-menu.open .header-menu-list {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: var(--color-white);
+        /* padding: 20px 0; */
+        display: flex;
+        flex-direction: column;
+        /* row-gap: 40px;
+        font-size: 34px;
+        font-weight: 600; */
+    }
+
+    .nav-button {
+        position: fixed;
+        z-index: 9;
+        top: 46px;
+        right: 30px;
+    }
+}

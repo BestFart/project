@@ -33,6 +33,7 @@ button {
     padding: 0;
     border: none;
     cursor: pointer;
+    background-color: transparent;
 }
 
 .container {
@@ -57,6 +58,17 @@ p {
     justify-content: space-between;
     margin-top: 52px;
     margin-bottom: 76px;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.nav-button {
+    display: none;
 }
 
 .header-menu-list {
@@ -102,7 +114,7 @@ p {
     box-shadow: 0 22px 40px 0 rgba(255, 104, 56, 0.19);
     background: var(--color-accent);
     color: var(--color-white);
-    gap: 59px;
+    /* gap: 59px; */
 }
 
 .header-content {
@@ -219,7 +231,6 @@ p {
 
 .swiper-button-prev:after,
 .swiper-button-next:after {
-    /* content: none; */
     display: none;
 }
 
@@ -237,17 +248,9 @@ p {
     margin-right: auto;
 }
 
-
-/* .cards-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 28px;
+svg :hover {
+    fill: var(--color-accent);
 }
-
-.card-item {
-    list-style: none;
-} */
 
 .product {
     display: flex;
